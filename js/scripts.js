@@ -1,34 +1,23 @@
 let number = prompt('Enter the number from 0 to 9', 0);
 
-switch(number) {
-    case '0':
-        document.write('0 - )');
-        break;
-    case '1':
-        document.write('1 - !');
-        break;
-    case '2':
-        document.write('2 - @');
-        break;
-    case '3':
-        document.write('3 - #');
-        break;
-    case '4':
-        document.write('4 - $');
-        break;
-    case '5':
-        document.write('5 - %');
-        break;
-    case '6':
-        document.write('6 - ^');
-        break;
-    case '7':
-        document.write('7 - &');
-        break;
-    case '8':
-        document.write('8 - *');
-        break;
-    case '9':
-        document.write('9 - (');
-        break;
+if(number == 0){
+    document.write('0 - )');
+} else if(number == 1){
+    document.write('1 - !');
+} else if(number == 2){
+    document.write('2 - @');
+} else if(number == 3){
+    document.write('3 - #');
+} else if(number == 4){
+    document.write('4 - $');
+} else if(number == 5){
+    document.write('5 - %');
+} else if(number == 6){
+    document.write('6 - ^');
+} else if(number == 7){
+    document.write('7 - &');
+} else if(number == 8){
+    document.write('8 - *');
+} else if(number == 9){
+    document.write('9 - (');
 }
